@@ -8,7 +8,7 @@ A #fedibot that repost bookmarks 15 days after you saved it.
 python3 -m pip install -r requirements.txt
 ```
 
-Don't forget to create a ``.env`` file & add ``MASTODNON_INSTANCE_URL`` & ``MASTODON_ACCESS_TOKEN``
+Don't forget to create a ``.env`` file & add ``MASTODON_INSTANCE_URL`` & ``MASTODON_ACCESS_TOKEN``
 
 
 ## Usage
