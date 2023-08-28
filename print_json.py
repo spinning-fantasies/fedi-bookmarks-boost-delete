@@ -51,7 +51,7 @@ print("Total bookmarked statuses:", len(all_bookmarks))
 
 data = []
 
-for x in range(0, len(all_bookmarks)-1):
+for x in range(0, len(all_bookmarks)):
     # print(all_bookmarks[x]['created_at'], all_bookmarks[x]['url'])
 
     data.append({
@@ -67,4 +67,4 @@ for x in range(0, len(all_bookmarks)-1):
     with open(filename, "w") as json_file:
         json.dump(data, json_file)
         
-print(f"JSON file '{filename}' created successfully.")
+print(f"JSON file {filename} created successfully.")
